@@ -35,6 +35,25 @@ a{
     border-radius: 20px;
 }
 
+.btn-big{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.title-text{
+    color: #0284fd;
+    padding: 20px 0px;
+}
+
+.p-text{
+    color: #5a6e7f;
+    margin-bottom: 35px;
+}
+
+.tx-cent{
+    text-align: center;
+}
+
 /* HEADER */
 header{
     background-color: #0284fd;
@@ -45,6 +64,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 .hamburger{
@@ -59,8 +79,48 @@ header{
     background: white;
     color: black;
 }
+/* HEADER */
 
+/* SECTION-APP */
+.app{
+    margin-top: 150px;
+}
 
+.container-app{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-app{
+    background-color: #b5ddff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#store{
+    padding: 10px 50px;
+    background: #0284fd;
+    border-radius: 20px;
+}
+
+.phone-img>img{
+    width: 300px;
+    position: relative;
+    bottom: -35px;
+}
+
+.phone-img{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.symbol{
+    font-size: 80px;
+    color: #0284fd;
+}
+
+/* RESPONSIVE */
 @media all and (min-width: 768px){
 
 }
