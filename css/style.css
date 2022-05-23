@@ -256,6 +256,7 @@ header{
     background-color: #9792e4;
     padding: 10px 30px;
 }
+/* SECTION-WORK-WITH-US */
 
 /***************
  RESPONSIVE 
@@ -282,6 +283,17 @@ header{
         display: flex;
     }
     /* SECTION-TESTIMONIAL */
+
+    /* SECTION-WORK-WITH-US */
+    .with-us-col{
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .with-us-card{
+        width: calc(100% / 2 - 20px);
+    }
+    /* SECTION-WORK-WITH-US */
 }
 
 
