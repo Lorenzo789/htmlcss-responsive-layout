@@ -180,6 +180,35 @@ header{
 }
 /* SECTION-STRATEGIC */
 
+/* SECTION-TESTIMONIAL */
+.tx-cent>h1.text-big{
+    color: #9792e4;
+}
+
+.tx-cent>h2.space-bot{
+    font-weight: 400;
+}
+
+.tx-cent>p.space-bot{
+    font-size: 20px;
+}
+
+.container-w-80.tx-cent{
+    background-color: #9792e4;
+    padding: 20px 10px;
+    border-radius: 40px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.testimonial{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
 
 /* RESPONSIVE */
 
