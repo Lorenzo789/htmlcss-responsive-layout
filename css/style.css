@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .jc-sb{
     justify-content: space-between;
 }
@@ -93,7 +97,6 @@ header{
 }
 
 .card-app{
-    width: 100%;
     background-color: #b5ddff;
     padding: 30px;
     border-radius: 10px;
@@ -123,11 +126,25 @@ header{
 }
 
 /* RESPONSIVE */
-@media all and (min-width: 768px){
 
+/* TABLET */
+@media all and (min-width: 768px){
+    /* SECTION-APP */
+    .flex.wrap{
+        column-gap: 15px;
+    }
+    .card-app.big{
+        width: 62%;
+    }
+    .card-app{
+        width: 30%;
+    }
+    /* SECTION-APP */
 }
 
+/* LAPTOP */
 @media all and (min-width: 992px){
+    /* HEADER */
     .container-header{
         width: 70%;
         margin: 0 auto;
@@ -138,4 +155,8 @@ header{
     .hamburger{
         display: none;
     }
+    /* HEADER */
+
+    /* SECTION-APP */
+
 }
