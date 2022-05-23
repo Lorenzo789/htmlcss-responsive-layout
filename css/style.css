@@ -66,6 +66,10 @@ a{
     font-size: 40px;
 }
 
+.text-medium{
+    font-size: 20px;
+}
+
 /* HEADER */
 header{
     background-color: #0284fd;
@@ -226,7 +230,14 @@ header{
         width: 30%;
     }
     /* SECTION-APP */
+
+    /* SECTION-TESTIMONIAL */
+    .container-w-100.tx-cent{
+        display: flex;
+    }
+    
 }
+
 
 /* LAPTOP */
 @media all and (min-width: 992px){
