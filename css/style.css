@@ -132,9 +132,10 @@ header{
     /* SECTION-APP */
     .flex.wrap{
         column-gap: 15px;
+        justify-content: space-between;
     }
     .card-app.big{
-        width: 62%;
+        width: 65%;
     }
     .card-app{
         width: 30%;
@@ -158,5 +159,18 @@ header{
     /* HEADER */
 
     /* SECTION-APP */
-
+    .card-app.big{
+        display: flex;
+        width: 66%;
+    }
+    .card-app{
+        width: 32%;
+    }
+    .phone-img{
+        width: 50%;
+        align-self: flex-end;
+    }
+    .phone-img>img{
+        width: 250px;
+    }
 }
