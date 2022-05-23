@@ -89,9 +89,11 @@ header{
 .container-app{
     width: 80%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 .card-app{
+    width: 100%;
     background-color: #b5ddff;
     padding: 30px;
     border-radius: 10px;
