@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 .flex{
     display: flex;
 }
@@ -33,7 +34,9 @@ a{
     color: white;
     padding: 10px;
 }
+/* COMMON */
 
+/* BUTTON */
 .btn{
     padding: 10px;
     border-radius: 20px;
@@ -43,22 +46,11 @@ a{
     padding: 10px 20px;
     border-radius: 20px;
 }
+/* BUTTON */
 
+/* TEXT */
 .tx-cent{
     text-align: center;
-}
-
-.space-bot{
-    padding: 20px 0px;
-}
-
-.container-w-80{
-    width: 80%;
-    margin: 0 auto;
-}
-
-.w-100{
-    width: 100%;
 }
 
 .text-bigger{
@@ -69,6 +61,36 @@ a{
 .text-medium{
     font-size: 20px;
 }
+
+.txt-white{
+    color: white;
+}
+
+.txt-violet{
+    color: #9792e4;
+}
+/* TEXT */
+
+/* CONTAINER */
+.container-w-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.w-100{
+    width: 100%;
+}
+/* CONTAINER */
+
+.mar-bot{
+    margin-bottom: 20px
+}
+
+.space-bot{
+    padding: 20px 0px;
+}
+
+
 
 /* HEADER */
 header{
@@ -211,13 +233,37 @@ header{
     object-fit: cover;
     border-radius: 50%;
 }
+/* SECTION-TESTIMONIAL */
 
+/* SECTION-WORK-WITH-US */
+.w-100.work-with-us{
+    background-color: #9792e4;
+    padding: 20px;
+}
 
+.with-us-card{
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
 
-/* RESPONSIVE */
+.with-us-card>.text-bigger.txt-violet.space-bot{
+    font-weight: bold;
+}
+
+.with-us-btn{
+    background-color: #9792e4;
+    padding: 10px 30px;
+}
+
+/***************
+ RESPONSIVE 
+***************/
 
 /* TABLET */
 @media all and (min-width: 768px){
+
     /* SECTION-APP */
     .flex.wrap{
         column-gap: 15px;
@@ -241,6 +287,7 @@ header{
 
 /* LAPTOP */
 @media all and (min-width: 992px){
+
     /* HEADER */
     .container-header{
         width: 70%;
@@ -301,4 +348,5 @@ header{
     .container-w-100.tx-cent{
         text-align: start;
     }
+    /* SECTION-TESTIMONIAL */
 }
