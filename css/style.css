@@ -66,6 +66,10 @@ header{
 }
 
 @media all and (min-width: 992px){
+    .container-header{
+        width: 70%;
+        margin: 0 auto;
+    }
     .navigation{
        display: block; 
     }
