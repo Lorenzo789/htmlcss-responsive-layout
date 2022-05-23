@@ -361,4 +361,15 @@ header{
         text-align: start;
     }
     /* SECTION-TESTIMONIAL */
+
+    /* SECTION-WORK-WITH-US */
+    .with-us-col{
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .with-us-card{
+        width: calc(100% / 3 - 20px);
+    }
+     /* SECTION-WORK-WITH-US */
 }
