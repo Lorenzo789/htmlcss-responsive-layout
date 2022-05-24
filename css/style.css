@@ -22,20 +22,6 @@
 .a-item-cent{
     align-items: center;
 }
-
-ul{
-    list-style: none;
-}
-
-li{
-    display: inline-block;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-}
 /* COMMON */
 
 /* BUTTON */
@@ -64,12 +50,20 @@ a{
     font-size: 30px;
 }
 
+.text-small{
+    font-size: 16px;
+}
+
 .txt-white{
     color: white;
 }
 
 .txt-violet{
     color: #9792e4;
+}
+
+.txt-dec{
+    text-decoration: none;
 }
 /* TEXT */
 
@@ -119,6 +113,18 @@ header{
 
 .navigation{
     display: none;
+}
+
+.navigation>ul{
+    list-style: none;
+}
+
+.navigation>ul>li{
+    display: inline-block;
+}
+
+.pad-small{
+    padding: 10px;
 }
 
 .btn-header{
@@ -304,6 +310,19 @@ header{
     background-color: white;
     color: #9792e4;
 }
+
+.start-bottom-content{
+    padding-top: 60px;
+}
+
+.start-bottom-content>ul{
+    list-style-position: inside;
+}
+
+.start-bottom-content>ul>li{
+    display: inline-block;
+}
+
 /* GET-STARTED */
 
 /***************
