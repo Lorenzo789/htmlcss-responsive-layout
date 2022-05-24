@@ -88,6 +88,10 @@ a{
     margin-bottom: 20px
 }
 
+.mar-bot-big{
+    margin-bottom: 40px
+}
+
 .space-bot{
     padding: 20px 0px;
 }
@@ -274,6 +278,33 @@ header{
  .btn-about{
      background-color: #9792e4;
  }
+ /* ABOUT-US */
+
+ /* GET-STARTED */
+ .get-start{
+     background-color: #9792e4;
+     padding: 20px 10px;
+ }
+
+.text-thin{
+    font-size: 20px;
+    font-weight: 100;
+    color: #d4d4f4;
+}
+
+#yell-txt{
+    font-size: 80px;
+    color: #fdc15f;
+    padding-bottom: 30px;
+}
+
+#btn-bigger{
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color: white;
+    color: #9792e4;
+}
+/* GET-STARTED */
 
 /***************
  RESPONSIVE 
@@ -407,10 +438,10 @@ header{
 
      /* ABOUT-US */
      .ab-us-col-sx{
-        width: 70%;
+        width: 65%;
     }
     .ab-us-col-dx{
-        width: 25%;
+        width: 30%;
     }
     /* ABOUT-US */  
-}
+}#fdc15f
