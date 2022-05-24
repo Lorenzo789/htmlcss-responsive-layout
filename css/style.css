@@ -65,6 +65,11 @@
 .txt-dec{
     text-decoration: none;
 }
+
+.over-wrap{
+    overflow-wrap: break-word;
+}
+
 /* TEXT */
 
 /* CONTAINER */
@@ -88,6 +93,10 @@
 
 .space-bot{
     padding: 20px 0px;
+}
+
+.pad-sec{
+    padding: 30px;
 }
 
 .pos-rel{
@@ -145,7 +154,7 @@ header{
 
 .card-app{
     background-color: #b5ddff;
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
@@ -170,7 +179,7 @@ header{
 .phone-img>img{
     width: 100%;
     position: relative;
-    bottom: -35px;
+    bottom: -6px;
 }
 
 .phone-img{
@@ -213,10 +222,11 @@ header{
 }
 
 #arrow-dev{
-    padding: 20px;
+    padding: 15px;
     background: #9792e4;
     border-radius: 50%;
     color: black;
+    font-size: 15px;
 }
 /* SECTION-STRATEGIC */
 
@@ -227,10 +237,6 @@ header{
 
 .tx-cent>h2.space-bot{
     font-weight: 400;
-}
-
-.tx-cent>p.space-bot{
-    font-size: 20px;
 }
 
 .container-w-100.tx-cent{
@@ -252,7 +258,7 @@ header{
 /* SECTION-WORK-WITH-US */
 .w-100.work-with-us{
     background-color: #9792e4;
-    padding: 20px;
+    padding: 50px;
 }
 
 .with-us-card{
@@ -277,7 +283,7 @@ header{
     color: #9792e4;
     font-size: 80px;
     position: absolute;
-    right: 165px;
+    right: 80px;
     top: 0;
  }
 
@@ -309,21 +315,20 @@ header{
     border-radius: 30px;
     background-color: white;
     color: #9792e4;
+    text-decoration: none;
 }
 
 .start-bottom-content{
     padding-top: 60px;
 }
-
-.start-bottom-content>ul{
-    list-style-position: inside;
-}
-
-.start-bottom-content>ul>li{
-    display: inline-block;
-}
-
 /* GET-STARTED */
+
+/* FOOTER */
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 30px;
+}
 
 /***************
  RESPONSIVE 
@@ -338,10 +343,15 @@ header{
         justify-content: space-between;
     }
     .card-app.big{
-        width: 65%;
+        width: 66%;
     }
     .card-app{
-        width: 30%;
+        width: 31%;
+    }
+    .phone-img>img{
+        width: 100%;
+        position: relative;
+        bottom: -6px
     }
     /* SECTION-APP */
 
@@ -358,7 +368,7 @@ header{
         flex-wrap: wrap;
     }
     .with-us-card{
-        width: calc(100% / 2 - 20px);
+        width: calc(100% / 2 - 10px);
     }
     /* SECTION-WORK-WITH-US */
 
@@ -373,7 +383,8 @@ header{
         width: 40%;
     }  
     #quote-about {
-        left: 150px;
+        right: 15px;
+        top: 0;
     }
     /* ABOUT-US */
 }
@@ -384,7 +395,7 @@ header{
 
     /* HEADER */
     .container-header{
-        width: 70%;
+        width: 80%;
         margin: 0 auto;
     }
     .navigation{
@@ -396,12 +407,16 @@ header{
     /* HEADER */
 
     /* SECTION-APP */
+    .container-app{
+        width: 90%;
+        margin: 0 auto;
+    }
     .card-app.big{
         display: flex;
         width: 66%;
     }
     .card-app{
-        width: 32%;
+        width: 31%;
     }
     .phone-img{
         width: 50%;
@@ -409,12 +424,14 @@ header{
     }
     .phone-img>img{
         width: 250px;
+        position: relative;
+        bottom: -6px
     }
     /* SECTION-APP */
 
     /* SECTION-STRATEGIC */
     .strategic>.container-w-80{
-        width: 60%;
+        width: 90%;
         display: flex;
         justify-content: space-evenly;
     }
@@ -432,6 +449,10 @@ header{
     /* SECTION-STRATEGIC */
 
     /* SECTION-TESTIMONIAL */
+    .container-w-80{
+        width: 90%;
+        margin: 0 auto;
+    }
     .testimonial-img{
         margin-right: 20px;
     }
@@ -463,4 +484,4 @@ header{
         width: 30%;
     }
     /* ABOUT-US */  
-}#fdc15f
+}
