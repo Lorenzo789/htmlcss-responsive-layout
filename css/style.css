@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1.3;
+    font-size: 20px;
 }
 
 /* COMMON */
@@ -58,8 +60,8 @@ a{
     font-size: 40px;
 }
 
-.text-medium{
-    font-size: 20px;
+.text-big{
+    font-size: 30px;
 }
 
 .txt-white{
@@ -90,7 +92,9 @@ a{
     padding: 20px 0px;
 }
 
-
+.pos-rel{
+    position: relative;
+}
 
 /* HEADER */
 header{
@@ -165,7 +169,7 @@ header{
 }
 
 .symbol{
-    font-size: 80px;
+    font-size: 50px;
     color: #0284fd;
 }
 /* SECTION-APP */
@@ -199,9 +203,9 @@ header{
 }
 
 #arrow-dev{
-    padding: 15px;
+    padding: 20px;
     background: #9792e4;
-    border-radius: 30px;
+    border-radius: 50%;
     color: black;
 }
 /* SECTION-STRATEGIC */
@@ -258,6 +262,19 @@ header{
 }
 /* SECTION-WORK-WITH-US */
 
+ /* ABOUT-US */
+ #quote-about{
+    color: #9792e4;
+    font-size: 80px;
+    position: absolute;
+    right: 165px;
+    top: 0;
+ }
+
+ .btn-about{
+     background-color: #9792e4;
+ }
+
 /***************
  RESPONSIVE 
 ***************/
@@ -266,7 +283,7 @@ header{
 @media all and (min-width: 768px){
 
     /* SECTION-APP */
-    .flex.wrap{
+    div.flex.wrap{
         column-gap: 15px;
         justify-content: space-between;
     }
@@ -294,9 +311,24 @@ header{
         width: calc(100% / 2 - 20px);
     }
     /* SECTION-WORK-WITH-US */
+
+    /* ABOUT-US */
+    .container-w-80.flex.wrap{
+        justify-content: space-evenly;
+    }
+    .ab-us-col-sx{
+        width: 40%;
+    }
+    .ab-us-col-dx{
+        width: 40%;
+    }  
+    #quote-about {
+        left: 150px;
+    }
+    /* ABOUT-US */
 }
 
-
+@media all and (min-width: 480px){}
 /* LAPTOP */
 @media all and (min-width: 992px){
 
@@ -372,4 +404,13 @@ header{
         width: calc(100% / 3 - 20px);
     }
      /* SECTION-WORK-WITH-US */
+
+     /* ABOUT-US */
+     .ab-us-col-sx{
+        width: 70%;
+    }
+    .ab-us-col-dx{
+        width: 25%;
+    }
+    /* ABOUT-US */  
 }
